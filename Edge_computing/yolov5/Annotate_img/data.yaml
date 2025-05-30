@@ -1,0 +1,13 @@
+train: Annotate_img/train/images
+val: Annotate_img/valid/images
+test: Annotate_img/test/images
+
+nc: 1
+names: ['leopard']
+
+roboflow:
+  workspace: awwd
+  project: edge_final
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/awwd/edge_final/dataset/1
